@@ -58,7 +58,12 @@ const App = () => {
     <div className="min-h-screen bg-gray-100 p-4">
       <div className="container mx-auto">
         <h1 className="text-3xl font-bold text-center mb-8">Product Filter</h1>
-        <Filter filters={filters} onFilterChange={handleFilterChange} />
+        <Filter
+          filters={filters}
+          setFilters={setFilters}
+          onFilterChange={handleFilterChange}
+        />
+
         <ProductList products={filteredProducts} />
       </div>
     </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Range } from 'react-range'
 
-const Filter = ({ filters, onFilterChange }) => {
+const Filter = ({ filters, setFilters, onFilterChange }) => {
   const categories = ['Electronics', 'Appliances', 'Sports', 'Fashion']
   const brands = [
     'TechCo',
@@ -17,6 +17,13 @@ const Filter = ({ filters, onFilterChange }) => {
   ]
   const maxPrice = 1300
 
+  const clearFilters = () => {
+    setFilters({
+      category: '',
+      brand: '',
+      priceRange: [0, 1300],
+    })
+  }
   return (
     <div className="bg-white shadow-lg rounded-lg p-6 mb-4">
       <h2 className="text-xl font-semibold mb-4">Filters</h2>
@@ -25,7 +32,7 @@ const Filter = ({ filters, onFilterChange }) => {
         <select
           value={filters.category}
           onChange={e => onFilterChange('category', e.target.value)}
-          className="block w-full border border-gray-300 rounded-lg p-2"
+          className="block w-auto border border-gray-300 rounded-lg p-2"
         >
           <option value="">All Categories</option>
           {categories.map(category => (
@@ -40,7 +47,7 @@ const Filter = ({ filters, onFilterChange }) => {
         <select
           value={filters.brand}
           onChange={e => onFilterChange('brand', e.target.value)}
-          className="block w-full border border-gray-300 rounded-lg p-2"
+          className="block w-auto border border-gray-300 rounded-lg p-2"
         >
           <option value="">All Brands</option>
           {brands.map(brand => (
@@ -76,6 +83,12 @@ const Filter = ({ filters, onFilterChange }) => {
           <span>${filters.priceRange[1]}</span>
         </div>
       </div>
+      <button
+        className="bg-red-500 text-white py-2 px-4 rounded mt-4"
+        onClick={clearFilters}
+      >
+        Clear Filters
+      </button>
     </div>
   )
 }
