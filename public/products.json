@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Laptop Pro X1",
+    "category": "Electronics",
+    "price": 1299.99,
+    "brand": "TechCo",
+    "img": "https://f.nooncdn.com/p/v1657694064/N51031374A_1.jpg?format=jpg&width=240"
+  },
+  {
+    "id": 2,
+    "name": "Coffee Maker Deluxe",
+    "category": "Appliances",
+    "price": 89.99,
+    "brand": "HomeBrew",
+    "img": "https://i5.walmartimages.com/seo/Nespresso-Vertuo-Plus-Deluxe-Coffee-Espresso-Machine-by-De-Longhi-with-Aerocinno-Black_87cc3d8e-df62-407e-b4e9-8869a77cc926.2efc8173cf308ab4595916926d8b1b75.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes AirMax",
+    "category": "Sports",
+    "price": 149.99,
+    "brand": "ActiveGear",
+    "img": "https://i5.walmartimages.com/seo/Nike-Air-Max-270-Men-s-Running-Shoes-White-Black-White-AH8050-100_e81a591a-17e4-41e1-a563-38ab406e6a26.d97f219d9540fe3e4172a8617410abf6.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Leather Backpack Vintage",
+    "category": "Fashion",
+    "price": 259.99,
+    "brand": "UrbanStyle",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg6dIAQUhCo-wFh3HwJoAi5Sr464WIHKg4Bg&s"
+  },
+  {
+    "id": 5,
+    "name": "Wireless Headphones SoundWave",
+    "category": "Electronics",
+    "price": 199.99,
+    "brand": "AudioPro",
+    "img": "https://i5.walmartimages.com/seo/Visual-Land-SOUNDWAVE-A1-Active-Noise-Cancelling-True-Wireless-Bluetooth-v5-3-In-Ear-Headphones-Black_969808ac-2ee4-4895-97e1-c52d7cf13d0f.97cf5efc1bd1cb1cd0556960ab5b4808.png"
+  },
+  {
+    "id": 6,
+    "name": "Espresso Machine Barista",
+    "category": "Appliances",
+    "price": 399.99,
+    "brand": "CoffeeLuxe",
+    "img": "https://barista-eg.com/wp-content/uploads/2024/03/breville-barista-express-espresso-machine-o-1.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Hiking Boots TrailMaster",
+    "category": "Sports",
+    "price": 119.99,
+    "brand": "OutdoorX",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOMiA_8VuwOhpoLU8-kqig0TLqlXz1NiwotQ&s"
+  },
+  {
+    "id": 8,
+    "name": "Sunglasses Aviator Classic",
+    "category": "Fashion",
+    "price": 99.99,
+    "brand": "SunShades",
+    "img": "https://img-cdn.magrabi.com/mnresize/1000/500/medias/sys_master/cdnmedia/cdnmedia/productimage/21009030/21009030_6_MC/8805396545586_null/21009030.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Smartwatch FitnessTrack",
+    "category": "Electronics",
+    "price": 249.99,
+    "brand": "FitLife",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5k7zcNxH1LyytlOVRBHTbyWO2EcTX-zxs4Q&s"
+  },
+  {
+    "id": 10,
+    "name": "Blender PowerMix",
+    "category": "Appliances",
+    "price": 69.99,
+    "brand": "KitchenAid",
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNCB9j8z3rCx6Lq3z8EXC0spNIBNaeGJ0rxw&s"
+  }
+]
